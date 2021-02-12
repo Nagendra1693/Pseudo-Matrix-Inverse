@@ -4,7 +4,6 @@ import pycuda.gpuarray as gpua
 
 import skcuda.linalg as linalg
 linalg.init()
-6
 
 # Matrix Inverse
 def matrix_inverse(A, cuda = True):
